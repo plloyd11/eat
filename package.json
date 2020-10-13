@@ -4,7 +4,8 @@
   "description": "Starter for using an Airtable base with a simple 11ty setup",
   "main": ".eleventy.js",
   "scripts": {
-    "dev": "postcss src/css/tailwind.css -o src/css/styles.css && eleventy --serve"
+    "dev": "postcss src/css/tailwind.css -o src/css/styles.css && eleventy --serve",
+    "build": "NODE_ENV=production postcss src/css/tailwind.css > src/css/styles.css && eleventy"
   },
   "keywords": [
     "11ty",
