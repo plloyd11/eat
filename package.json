@@ -1,0 +1,27 @@
+{
+  "name": "eleventy-airtable",
+  "version": "1.0.0",
+  "description": "Starter for using an Airtable base with a simple 11ty setup",
+  "main": ".eleventy.js",
+  "scripts": {
+    "dev": "postcss src/css/tailwind.css -o src/css/styles.css && eleventy --serve"
+  },
+  "keywords": [
+    "11ty",
+    "Airtable",
+    "Tailwind"
+  ],
+  "author": "Pete Lloyd",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^0.11.0",
+    "airtable": "^0.10.0",
+    "autoprefixer": "^9.8.6",
+    "cssnano": "^4.1.10",
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.1",
+    "postcss-cli": "^7.1.2",
+    "tailwindcss": "^1.9.1",
+    "watch": "^1.0.2"
+  }
+}

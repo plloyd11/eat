@@ -1,0 +1,8 @@
+{% extends "layouts/base.html" %}
+
+{% block content %}
+    <h1 class="mb-12 text-4xl font-semibold text-center">Cats Of Waldo</h1>
+    <section class="grid grid-cols-12 gap-8 px-6 mx-auto max-w-7xl">
+        {% include "partials/catList.html" %}
+    </section>
+{% endblock %}
